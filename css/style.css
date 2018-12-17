@@ -423,6 +423,7 @@ article .different-posts {
   -moz-filter: saturate(120%);
   filter: saturate(120%);
   position: relative;
+  font-family: "sans-serif";
 }
 @media only screen and (orientation: landscape) and (max-width: 64em) {
   .header {
