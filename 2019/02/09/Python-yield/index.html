@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="theme-color" content="#33474d">
-	<title>About Me | Chunhao Liu&#39;s web</title>
+	<title>Python yield 在数据读取时的使用 | Chunhao Liu&#39;s web</title>
 	<link rel="stylesheet" href="/css/style.css">
 	
       <link rel="alternate" href="/atom.xml" title="Chunhao Liu&#39;s web" type="application/atom+xml">
@@ -30,11 +30,30 @@
 
 	<main>
 		<article>
-	<h1>About Me</h1>
-	<!-- <h1>About Me</h1> -->
-	<p>under construction …</p>
+	
+		<h1>Python yield 在数据读取时的使用</h1>
+	
+	<div class="article__infos">
+		<span class="article__date">2019-02-09</span><br>
+		
+		
+			<span class="article__tags">
+			  	<a class="article__tag-link" href="/tags/Python/">Python</a>
+			</span>
+		
+	</div>
 
 	
+
+	
+		<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">data</span><span class="params">(a, b)</span>:</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">5</span>):</span><br><span class="line">        <span class="keyword">if</span> i &lt; <span class="number">3</span>:</span><br><span class="line">            <span class="keyword">yield</span> (a[i:i+<span class="number">1</span>], b[i:i+<span class="number">1</span>])</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="keyword">yield</span> (a[i:i+<span class="number">4</span>], b[i:i+<span class="number">4</span>])</span><br></pre></td></tr></table></figure>
+	
+
+	
+		<span class="different-posts"><a href="/2019/02/09/Python-yield/" onclick="window.history.go(-1); return false;">⬅️ Go back </a></span>
+
+	
+
 </article>
 
 	</main>
