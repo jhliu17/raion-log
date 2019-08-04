@@ -6,7 +6,7 @@
 @font-face {
   font-family: "Noto Sans";
   src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: italic;
+  font-style: normal;
 }
 @font-face {
   font-family: "Noto Serif";
@@ -25,5 +25,5 @@ height: 0.5rem,
   background-color: #f9fafa;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #24365e;
+  background-color: #33474d;
 }

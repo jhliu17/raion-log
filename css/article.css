@@ -23,6 +23,7 @@ article {
   text-align: justify;
   margin: 0 2rem;
   margin-bottom: 2rem;
+  margin-top: 3vh;
   position: relative;
 }
 @media only screen and (max-width: 40em) {
@@ -43,6 +44,7 @@ article {
 }
 article h1 {
   font-family: "Noto Serif", serif;
+  font-size: 2rem;
 }
 h1,
 h2,

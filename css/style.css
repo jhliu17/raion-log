@@ -6,7 +6,7 @@
 @font-face {
   font-family: "Noto Sans";
   src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: italic;
+  font-style: normal;
 }
 @font-face {
   font-family: "Noto Serif";
@@ -46,7 +46,7 @@ p {
 @font-face {
   font-family: "Noto Sans";
   src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: italic;
+  font-style: normal;
 }
 @font-face {
   font-family: "Noto Serif";
@@ -65,7 +65,7 @@ height: 0.5rem,
   background-color: #f9fafa;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #24365e;
+  background-color: #33474d;
 }
 @font-face {
   font-family: "Noto Sans";
@@ -75,7 +75,7 @@ height: 0.5rem,
 @font-face {
   font-family: "Noto Sans";
   src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: italic;
+  font-style: normal;
 }
 @font-face {
   font-family: "Noto Serif";
@@ -136,20 +136,20 @@ h5 {
 }
 article a {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#123, #123);
+  background-image: linear-gradient(#33474d, #33474d);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #123;
+  color: #33474d;
   text-decoration: none;
 }
 article a::selection {
-  text-shadow: 0.03em 0 #123, -0.03em 0 #123, 0 0.03em #123, 0 -0.03em #123, 0.06em 0 #123, -0.06em 0 #123, 0.09em 0 #123, -0.09em 0 #123, 0.12em 0 #123, -0.12em 0 #123, 0.15em 0 #123, -0.15em 0 #123;
-  background: #123;
+  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
+  background: #33474d;
 }
 article a::-moz-selection {
-  text-shadow: 0.03em 0 #123, -0.03em 0 #123, 0 0.03em #123, 0 -0.03em #123, 0.06em 0 #123, -0.06em 0 #123, 0.09em 0 #123, -0.09em 0 #123, 0.12em 0 #123, -0.12em 0 #123, 0.15em 0 #123, -0.15em 0 #123;
-  background: #123;
+  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
+  background: #33474d;
 }
 article a *,
 article a *:after,
@@ -159,7 +159,7 @@ article a:before {
   text-shadow: none;
 }
 article a:visited {
-  color: #123;
+  color: #33474d;
 }
 article:hover .article__read-more-link {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
@@ -399,7 +399,7 @@ article .different-posts {
 @font-face {
   font-family: "Noto Sans";
   src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: italic;
+  font-style: normal;
 }
 @font-face {
   font-family: "Noto Serif";
@@ -542,7 +542,7 @@ text-
 @font-face {
   font-family: "Noto Sans";
   src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: italic;
+  font-style: normal;
 }
 @font-face {
   font-family: "Noto Serif";
@@ -554,7 +554,7 @@ text-
   src: url("fonts/Inconsolata/Inconsolata-Regular.ttf");
 }
 .footer {
-  background-color: #24365e;
+  background-color: #33474d;
   color: #f9fafa;
   padding-top: 2rem;
   padding-bottom: 1rem;
@@ -601,7 +601,7 @@ text-
   list-style-type: none;
 }
 .footer a {
-  text-shadow: 0.03em 0 #24365e, -0.03em 0 #24365e, 0 0.03em #24365e, 0 -0.03em #24365e, 0.06em 0 #24365e, -0.06em 0 #24365e, 0.09em 0 #24365e, -0.09em 0 #24365e, 0.12em 0 #24365e, -0.12em 0 #24365e, 0.15em 0 #24365e, -0.15em 0 #24365e;
+  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
   background-image: linear-gradient(#f9fafa, #f9fafa);
   background-size: 1px 1px;
   background-repeat: repeat-x;
@@ -628,7 +628,7 @@ text-
   color: #f9fafa;
 }
 .footer a:hover {
-  text-shadow: 0.03em 0 #24365e, -0.03em 0 #24365e, 0 0.03em #24365e, 0 -0.03em #24365e, 0.06em 0 #24365e, -0.06em 0 #24365e, 0.09em 0 #24365e, -0.09em 0 #24365e, 0.12em 0 #24365e, -0.12em 0 #24365e, 0.15em 0 #24365e, -0.15em 0 #24365e;
+  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
   background-image: linear-gradient(#0ba6d7, #0ba6d7);
   background-size: 1px 1px;
   background-repeat: repeat-x;
@@ -668,7 +668,7 @@ text-
 @font-face {
   font-family: "Noto Sans";
   src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: italic;
+  font-style: normal;
 }
 @font-face {
   font-family: "Noto Serif";
@@ -878,7 +878,7 @@ pre .javascript .function {
 @font-face {
   font-family: "Noto Sans";
   src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: italic;
+  font-style: normal;
 }
 @font-face {
   font-family: "Noto Serif";
@@ -902,20 +902,20 @@ pre .javascript .function {
 }
 .archive__year > span:hover {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#123, #123);
+  background-image: linear-gradient(#33474d, #33474d);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #123;
+  color: #33474d;
   text-decoration: none;
 }
 .archive__year > span:hover::selection {
-  text-shadow: 0.03em 0 #123, -0.03em 0 #123, 0 0.03em #123, 0 -0.03em #123, 0.06em 0 #123, -0.06em 0 #123, 0.09em 0 #123, -0.09em 0 #123, 0.12em 0 #123, -0.12em 0 #123, 0.15em 0 #123, -0.15em 0 #123;
-  background: #123;
+  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
+  background: #33474d;
 }
 .archive__year > span:hover::-moz-selection {
-  text-shadow: 0.03em 0 #123, -0.03em 0 #123, 0 0.03em #123, 0 -0.03em #123, 0.06em 0 #123, -0.06em 0 #123, 0.09em 0 #123, -0.09em 0 #123, 0.12em 0 #123, -0.12em 0 #123, 0.15em 0 #123, -0.15em 0 #123;
-  background: #123;
+  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
+  background: #33474d;
 }
 .archive__year > span:hover *,
 .archive__year > span:hover *:after,
@@ -925,29 +925,29 @@ pre .javascript .function {
   text-shadow: none;
 }
 .archive__year > span:hover:visited {
-  color: #123;
+  color: #33474d;
 }
 .archive__month {
   font-family: fonstSerif;
   font-size: 1.777rem;
-  color: #1c3854;
+  color: #425c64;
 }
 .archive__month > span:hover {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#1c3854, #1c3854);
+  background-image: linear-gradient(#425c64, #425c64);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #1c3854;
+  color: #425c64;
   text-decoration: none;
 }
 .archive__month > span:hover::selection {
-  text-shadow: 0.03em 0 #1c3854, -0.03em 0 #1c3854, 0 0.03em #1c3854, 0 -0.03em #1c3854, 0.06em 0 #1c3854, -0.06em 0 #1c3854, 0.09em 0 #1c3854, -0.09em 0 #1c3854, 0.12em 0 #1c3854, -0.12em 0 #1c3854, 0.15em 0 #1c3854, -0.15em 0 #1c3854;
-  background: #1c3854;
+  text-shadow: 0.03em 0 #425c64, -0.03em 0 #425c64, 0 0.03em #425c64, 0 -0.03em #425c64, 0.06em 0 #425c64, -0.06em 0 #425c64, 0.09em 0 #425c64, -0.09em 0 #425c64, 0.12em 0 #425c64, -0.12em 0 #425c64, 0.15em 0 #425c64, -0.15em 0 #425c64;
+  background: #425c64;
 }
 .archive__month > span:hover::-moz-selection {
-  text-shadow: 0.03em 0 #1c3854, -0.03em 0 #1c3854, 0 0.03em #1c3854, 0 -0.03em #1c3854, 0.06em 0 #1c3854, -0.06em 0 #1c3854, 0.09em 0 #1c3854, -0.09em 0 #1c3854, 0.12em 0 #1c3854, -0.12em 0 #1c3854, 0.15em 0 #1c3854, -0.15em 0 #1c3854;
-  background: #1c3854;
+  text-shadow: 0.03em 0 #425c64, -0.03em 0 #425c64, 0 0.03em #425c64, 0 -0.03em #425c64, 0.06em 0 #425c64, -0.06em 0 #425c64, 0.09em 0 #425c64, -0.09em 0 #425c64, 0.12em 0 #425c64, -0.12em 0 #425c64, 0.15em 0 #425c64, -0.15em 0 #425c64;
+  background: #425c64;
 }
 .archive__month > span:hover *,
 .archive__month > span:hover *:after,
@@ -957,7 +957,7 @@ pre .javascript .function {
   text-shadow: none;
 }
 .archive__month > span:hover:visited {
-  color: #1c3854;
+  color: #425c64;
 }
 .archive .archive__entry {
   font-family: "Noto Sans", sans-serif;
@@ -966,24 +966,24 @@ pre .javascript .function {
   margin-left: 1rem;
 }
 .archive__entry > a {
-  color: #274e75;
+  color: #51717b;
 }
 .archive__entry > a:hover {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#274e75, #274e75);
+  background-image: linear-gradient(#51717b, #51717b);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #274e75;
+  color: #51717b;
   text-decoration: none;
 }
 .archive__entry > a:hover::selection {
-  text-shadow: 0.03em 0 #274e75, -0.03em 0 #274e75, 0 0.03em #274e75, 0 -0.03em #274e75, 0.06em 0 #274e75, -0.06em 0 #274e75, 0.09em 0 #274e75, -0.09em 0 #274e75, 0.12em 0 #274e75, -0.12em 0 #274e75, 0.15em 0 #274e75, -0.15em 0 #274e75;
-  background: #274e75;
+  text-shadow: 0.03em 0 #51717b, -0.03em 0 #51717b, 0 0.03em #51717b, 0 -0.03em #51717b, 0.06em 0 #51717b, -0.06em 0 #51717b, 0.09em 0 #51717b, -0.09em 0 #51717b, 0.12em 0 #51717b, -0.12em 0 #51717b, 0.15em 0 #51717b, -0.15em 0 #51717b;
+  background: #51717b;
 }
 .archive__entry > a:hover::-moz-selection {
-  text-shadow: 0.03em 0 #274e75, -0.03em 0 #274e75, 0 0.03em #274e75, 0 -0.03em #274e75, 0.06em 0 #274e75, -0.06em 0 #274e75, 0.09em 0 #274e75, -0.09em 0 #274e75, 0.12em 0 #274e75, -0.12em 0 #274e75, 0.15em 0 #274e75, -0.15em 0 #274e75;
-  background: #274e75;
+  text-shadow: 0.03em 0 #51717b, -0.03em 0 #51717b, 0 0.03em #51717b, 0 -0.03em #51717b, 0.06em 0 #51717b, -0.06em 0 #51717b, 0.09em 0 #51717b, -0.09em 0 #51717b, 0.12em 0 #51717b, -0.12em 0 #51717b, 0.15em 0 #51717b, -0.15em 0 #51717b;
+  background: #51717b;
 }
 .archive__entry > a:hover *,
 .archive__entry > a:hover *:after,
@@ -993,7 +993,7 @@ pre .javascript .function {
   text-shadow: none;
 }
 .archive__entry > a:hover:visited {
-  color: #274e75;
+  color: #51717b;
 }
 .archive__expendable {
   margin-top: 0.5em;
@@ -1035,7 +1035,7 @@ html {
 }
 body {
   font-family: "Noto Sans";
-  color: #123;
+  color: #33474d;
   display: flex;
   flex-direction: column;
 }
@@ -1059,7 +1059,7 @@ main > h1 {
 }
 a {
   text-decoration: none;
-  color: #123;
+  color: #33474d;
 }
 a:visited {
   color: currentColor;
@@ -1105,20 +1105,20 @@ a:hover:visited {
 }
 .different-posts a {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#123, #123);
+  background-image: linear-gradient(#33474d, #33474d);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #123;
+  color: #33474d;
   text-decoration: none;
 }
 .different-posts a::selection {
-  text-shadow: 0.03em 0 #123, -0.03em 0 #123, 0 0.03em #123, 0 -0.03em #123, 0.06em 0 #123, -0.06em 0 #123, 0.09em 0 #123, -0.09em 0 #123, 0.12em 0 #123, -0.12em 0 #123, 0.15em 0 #123, -0.15em 0 #123;
-  background: #123;
+  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
+  background: #33474d;
 }
 .different-posts a::-moz-selection {
-  text-shadow: 0.03em 0 #123, -0.03em 0 #123, 0 0.03em #123, 0 -0.03em #123, 0.06em 0 #123, -0.06em 0 #123, 0.09em 0 #123, -0.09em 0 #123, 0.12em 0 #123, -0.12em 0 #123, 0.15em 0 #123, -0.15em 0 #123;
-  background: #123;
+  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
+  background: #33474d;
 }
 .different-posts a *,
 .different-posts a *:after,
@@ -1128,7 +1128,7 @@ a:hover:visited {
   text-shadow: none;
 }
 .different-posts a:visited {
-  color: #123;
+  color: #33474d;
 }
 .different-posts a:hover {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;

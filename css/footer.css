@@ -6,7 +6,7 @@
 @font-face {
   font-family: "Noto Sans";
   src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: italic;
+  font-style: normal;
 }
 @font-face {
   font-family: "Noto Serif";
@@ -18,7 +18,7 @@
   src: url("fonts/Inconsolata/Inconsolata-Regular.ttf");
 }
 .footer {
-  background-color: #24365e;
+  background-color: #33474d;
   color: #f9fafa;
   padding-top: 2rem;
   padding-bottom: 1rem;
@@ -65,7 +65,7 @@
   list-style-type: none;
 }
 .footer a {
-  text-shadow: 0.03em 0 #24365e, -0.03em 0 #24365e, 0 0.03em #24365e, 0 -0.03em #24365e, 0.06em 0 #24365e, -0.06em 0 #24365e, 0.09em 0 #24365e, -0.09em 0 #24365e, 0.12em 0 #24365e, -0.12em 0 #24365e, 0.15em 0 #24365e, -0.15em 0 #24365e;
+  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
   background-image: linear-gradient(#f9fafa, #f9fafa);
   background-size: 1px 1px;
   background-repeat: repeat-x;
@@ -92,7 +92,7 @@
   color: #f9fafa;
 }
 .footer a:hover {
-  text-shadow: 0.03em 0 #24365e, -0.03em 0 #24365e, 0 0.03em #24365e, 0 -0.03em #24365e, 0.06em 0 #24365e, -0.06em 0 #24365e, 0.09em 0 #24365e, -0.09em 0 #24365e, 0.12em 0 #24365e, -0.12em 0 #24365e, 0.15em 0 #24365e, -0.15em 0 #24365e;
+  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
   background-image: linear-gradient(#0ba6d7, #0ba6d7);
   background-size: 1px 1px;
   background-repeat: repeat-x;
