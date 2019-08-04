@@ -65,7 +65,7 @@ height: 0.5rem,
   background-color: #f9fafa;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #33474d;
+  background-color: #24365e;
 }
 @font-face {
   font-family: "Noto Sans";
@@ -136,20 +136,20 @@ h5 {
 }
 article a {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#33474d, #33474d);
+  background-image: linear-gradient(#123, #123);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #33474d;
+  color: #123;
   text-decoration: none;
 }
 article a::selection {
-  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
-  background: #33474d;
+  text-shadow: 0.03em 0 #123, -0.03em 0 #123, 0 0.03em #123, 0 -0.03em #123, 0.06em 0 #123, -0.06em 0 #123, 0.09em 0 #123, -0.09em 0 #123, 0.12em 0 #123, -0.12em 0 #123, 0.15em 0 #123, -0.15em 0 #123;
+  background: #123;
 }
 article a::-moz-selection {
-  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
-  background: #33474d;
+  text-shadow: 0.03em 0 #123, -0.03em 0 #123, 0 0.03em #123, 0 -0.03em #123, 0.06em 0 #123, -0.06em 0 #123, 0.09em 0 #123, -0.09em 0 #123, 0.12em 0 #123, -0.12em 0 #123, 0.15em 0 #123, -0.15em 0 #123;
+  background: #123;
 }
 article a *,
 article a *:after,
@@ -159,24 +159,24 @@ article a:before {
   text-shadow: none;
 }
 article a:visited {
-  color: #33474d;
+  color: #123;
 }
 article:hover .article__read-more-link {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#417ad8, #417ad8);
+  background-image: linear-gradient(#0ba6d7, #0ba6d7);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #417ad8;
+  color: #0ba6d7;
   text-decoration: none;
 }
 article:hover .article__read-more-link::selection {
-  text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
-  background: #417ad8;
+  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+  background: #0ba6d7;
 }
 article:hover .article__read-more-link::-moz-selection {
-  text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
-  background: #417ad8;
+  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+  background: #0ba6d7;
 }
 article:hover .article__read-more-link *,
 article:hover .article__read-more-link *:after,
@@ -186,25 +186,25 @@ article:hover .article__read-more-link:before {
   text-shadow: none;
 }
 article:hover .article__read-more-link:visited {
-  color: #417ad8;
+  color: #0ba6d7;
 }
 @media only screen and (max-width: 64em) {
   article .article__read-more-link {
     text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-    background-image: linear-gradient(#417ad8, #417ad8);
+    background-image: linear-gradient(#0ba6d7, #0ba6d7);
     background-size: 1px 1px;
     background-repeat: repeat-x;
     background-position: 0% 95%;
-    color: #417ad8;
+    color: #0ba6d7;
     text-decoration: none;
   }
   article .article__read-more-link::selection {
-    text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
-    background: #417ad8;
+    text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+    background: #0ba6d7;
   }
   article .article__read-more-link::-moz-selection {
-    text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
-    background: #417ad8;
+    text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+    background: #0ba6d7;
   }
   article .article__read-more-link *,
   article .article__read-more-link *:after,
@@ -214,7 +214,7 @@ article:hover .article__read-more-link:visited {
     text-shadow: none;
   }
   article .article__read-more-link:visited {
-    color: #417ad8;
+    color: #0ba6d7;
   }
 }
 article h1 a:hover {
@@ -299,20 +299,20 @@ article:hover blockquote a {
 }
 article blockquote a:hover {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#417ad8, #417ad8);
+  background-image: linear-gradient(#0ba6d7, #0ba6d7);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #417ad8;
+  color: #0ba6d7;
   text-decoration: none;
 }
 article blockquote a:hover::selection {
-  text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
-  background: #417ad8;
+  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+  background: #0ba6d7;
 }
 article blockquote a:hover::-moz-selection {
-  text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
-  background: #417ad8;
+  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+  background: #0ba6d7;
 }
 article blockquote a:hover *,
 article blockquote a:hover *:after,
@@ -322,7 +322,7 @@ article blockquote a:hover:before {
   text-shadow: none;
 }
 article blockquote a:hover:visited {
-  color: #417ad8;
+  color: #0ba6d7;
 }
 table {
   width: 100%;
@@ -337,7 +337,7 @@ table td {
   border-bottom: 1px solid #d1dde1;
 }
 table tbody tr:hover {
-  background-color: #ecf2fb;
+  background-color: #e4f7fe;
 }
 .article__tag-link:before {
   content: '#';
@@ -554,7 +554,7 @@ text-
   src: url("fonts/Inconsolata/Inconsolata-Regular.ttf");
 }
 .footer {
-  background-color: #33474d;
+  background-color: #24365e;
   color: #f9fafa;
   padding-top: 2rem;
   padding-bottom: 1rem;
@@ -601,7 +601,7 @@ text-
   list-style-type: none;
 }
 .footer a {
-  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
+  text-shadow: 0.03em 0 #24365e, -0.03em 0 #24365e, 0 0.03em #24365e, 0 -0.03em #24365e, 0.06em 0 #24365e, -0.06em 0 #24365e, 0.09em 0 #24365e, -0.09em 0 #24365e, 0.12em 0 #24365e, -0.12em 0 #24365e, 0.15em 0 #24365e, -0.15em 0 #24365e;
   background-image: linear-gradient(#f9fafa, #f9fafa);
   background-size: 1px 1px;
   background-repeat: repeat-x;
@@ -628,21 +628,21 @@ text-
   color: #f9fafa;
 }
 .footer a:hover {
-  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
-  background-image: linear-gradient(#417ad8, #417ad8);
+  text-shadow: 0.03em 0 #24365e, -0.03em 0 #24365e, 0 0.03em #24365e, 0 -0.03em #24365e, 0.06em 0 #24365e, -0.06em 0 #24365e, 0.09em 0 #24365e, -0.09em 0 #24365e, 0.12em 0 #24365e, -0.12em 0 #24365e, 0.15em 0 #24365e, -0.15em 0 #24365e;
+  background-image: linear-gradient(#0ba6d7, #0ba6d7);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #417ad8;
+  color: #0ba6d7;
   text-decoration: none;
 }
 .footer a:hover::selection {
-  text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
-  background: #417ad8;
+  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+  background: #0ba6d7;
 }
 .footer a:hover::-moz-selection {
-  text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
-  background: #417ad8;
+  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+  background: #0ba6d7;
 }
 .footer a:hover *,
 .footer a:hover *:after,
@@ -652,7 +652,7 @@ text-
   text-shadow: none;
 }
 .footer a:hover:visited {
-  color: #417ad8;
+  color: #0ba6d7;
 }
 .footer-credit {
   margin-top: 2rem;
@@ -689,22 +689,22 @@ article .highlight {
 article pre a,
 article .highlight a {
   text-shadow: 0.03em 0 #ebefef, -0.03em 0 #ebefef, 0 0.03em #ebefef, 0 -0.03em #ebefef, 0.06em 0 #ebefef, -0.06em 0 #ebefef, 0.09em 0 #ebefef, -0.09em 0 #ebefef, 0.12em 0 #ebefef, -0.12em 0 #ebefef, 0.15em 0 #ebefef, -0.15em 0 #ebefef;
-  background-image: linear-gradient(#417ad8, #417ad8);
+  background-image: linear-gradient(#0ba6d7, #0ba6d7);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #417ad8;
+  color: #0ba6d7;
   text-decoration: none;
 }
 article pre a::selection,
 article .highlight a::selection {
-  text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
-  background: #417ad8;
+  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+  background: #0ba6d7;
 }
 article pre a::-moz-selection,
 article .highlight a::-moz-selection {
-  text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
-  background: #417ad8;
+  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+  background: #0ba6d7;
 }
 article pre a *,
 article .highlight a *,
@@ -720,7 +720,7 @@ article .highlight a:before {
 }
 article pre a:visited,
 article .highlight a:visited {
-  color: #417ad8;
+  color: #0ba6d7;
 }
 article .highlight .gutter pre,
 article .gist .gist-file .gist-data .line-numbers {
@@ -902,20 +902,20 @@ pre .javascript .function {
 }
 .archive__year > span:hover {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#33474d, #33474d);
+  background-image: linear-gradient(#123, #123);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #33474d;
+  color: #123;
   text-decoration: none;
 }
 .archive__year > span:hover::selection {
-  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
-  background: #33474d;
+  text-shadow: 0.03em 0 #123, -0.03em 0 #123, 0 0.03em #123, 0 -0.03em #123, 0.06em 0 #123, -0.06em 0 #123, 0.09em 0 #123, -0.09em 0 #123, 0.12em 0 #123, -0.12em 0 #123, 0.15em 0 #123, -0.15em 0 #123;
+  background: #123;
 }
 .archive__year > span:hover::-moz-selection {
-  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
-  background: #33474d;
+  text-shadow: 0.03em 0 #123, -0.03em 0 #123, 0 0.03em #123, 0 -0.03em #123, 0.06em 0 #123, -0.06em 0 #123, 0.09em 0 #123, -0.09em 0 #123, 0.12em 0 #123, -0.12em 0 #123, 0.15em 0 #123, -0.15em 0 #123;
+  background: #123;
 }
 .archive__year > span:hover *,
 .archive__year > span:hover *:after,
@@ -925,29 +925,29 @@ pre .javascript .function {
   text-shadow: none;
 }
 .archive__year > span:hover:visited {
-  color: #33474d;
+  color: #123;
 }
 .archive__month {
   font-family: fonstSerif;
   font-size: 1.777rem;
-  color: #425c64;
+  color: #1c3854;
 }
 .archive__month > span:hover {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#425c64, #425c64);
+  background-image: linear-gradient(#1c3854, #1c3854);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #425c64;
+  color: #1c3854;
   text-decoration: none;
 }
 .archive__month > span:hover::selection {
-  text-shadow: 0.03em 0 #425c64, -0.03em 0 #425c64, 0 0.03em #425c64, 0 -0.03em #425c64, 0.06em 0 #425c64, -0.06em 0 #425c64, 0.09em 0 #425c64, -0.09em 0 #425c64, 0.12em 0 #425c64, -0.12em 0 #425c64, 0.15em 0 #425c64, -0.15em 0 #425c64;
-  background: #425c64;
+  text-shadow: 0.03em 0 #1c3854, -0.03em 0 #1c3854, 0 0.03em #1c3854, 0 -0.03em #1c3854, 0.06em 0 #1c3854, -0.06em 0 #1c3854, 0.09em 0 #1c3854, -0.09em 0 #1c3854, 0.12em 0 #1c3854, -0.12em 0 #1c3854, 0.15em 0 #1c3854, -0.15em 0 #1c3854;
+  background: #1c3854;
 }
 .archive__month > span:hover::-moz-selection {
-  text-shadow: 0.03em 0 #425c64, -0.03em 0 #425c64, 0 0.03em #425c64, 0 -0.03em #425c64, 0.06em 0 #425c64, -0.06em 0 #425c64, 0.09em 0 #425c64, -0.09em 0 #425c64, 0.12em 0 #425c64, -0.12em 0 #425c64, 0.15em 0 #425c64, -0.15em 0 #425c64;
-  background: #425c64;
+  text-shadow: 0.03em 0 #1c3854, -0.03em 0 #1c3854, 0 0.03em #1c3854, 0 -0.03em #1c3854, 0.06em 0 #1c3854, -0.06em 0 #1c3854, 0.09em 0 #1c3854, -0.09em 0 #1c3854, 0.12em 0 #1c3854, -0.12em 0 #1c3854, 0.15em 0 #1c3854, -0.15em 0 #1c3854;
+  background: #1c3854;
 }
 .archive__month > span:hover *,
 .archive__month > span:hover *:after,
@@ -957,7 +957,7 @@ pre .javascript .function {
   text-shadow: none;
 }
 .archive__month > span:hover:visited {
-  color: #425c64;
+  color: #1c3854;
 }
 .archive .archive__entry {
   font-family: "Noto Sans", sans-serif;
@@ -966,24 +966,24 @@ pre .javascript .function {
   margin-left: 1rem;
 }
 .archive__entry > a {
-  color: #51717b;
+  color: #274e75;
 }
 .archive__entry > a:hover {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#51717b, #51717b);
+  background-image: linear-gradient(#274e75, #274e75);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #51717b;
+  color: #274e75;
   text-decoration: none;
 }
 .archive__entry > a:hover::selection {
-  text-shadow: 0.03em 0 #51717b, -0.03em 0 #51717b, 0 0.03em #51717b, 0 -0.03em #51717b, 0.06em 0 #51717b, -0.06em 0 #51717b, 0.09em 0 #51717b, -0.09em 0 #51717b, 0.12em 0 #51717b, -0.12em 0 #51717b, 0.15em 0 #51717b, -0.15em 0 #51717b;
-  background: #51717b;
+  text-shadow: 0.03em 0 #274e75, -0.03em 0 #274e75, 0 0.03em #274e75, 0 -0.03em #274e75, 0.06em 0 #274e75, -0.06em 0 #274e75, 0.09em 0 #274e75, -0.09em 0 #274e75, 0.12em 0 #274e75, -0.12em 0 #274e75, 0.15em 0 #274e75, -0.15em 0 #274e75;
+  background: #274e75;
 }
 .archive__entry > a:hover::-moz-selection {
-  text-shadow: 0.03em 0 #51717b, -0.03em 0 #51717b, 0 0.03em #51717b, 0 -0.03em #51717b, 0.06em 0 #51717b, -0.06em 0 #51717b, 0.09em 0 #51717b, -0.09em 0 #51717b, 0.12em 0 #51717b, -0.12em 0 #51717b, 0.15em 0 #51717b, -0.15em 0 #51717b;
-  background: #51717b;
+  text-shadow: 0.03em 0 #274e75, -0.03em 0 #274e75, 0 0.03em #274e75, 0 -0.03em #274e75, 0.06em 0 #274e75, -0.06em 0 #274e75, 0.09em 0 #274e75, -0.09em 0 #274e75, 0.12em 0 #274e75, -0.12em 0 #274e75, 0.15em 0 #274e75, -0.15em 0 #274e75;
+  background: #274e75;
 }
 .archive__entry > a:hover *,
 .archive__entry > a:hover *:after,
@@ -993,7 +993,7 @@ pre .javascript .function {
   text-shadow: none;
 }
 .archive__entry > a:hover:visited {
-  color: #51717b;
+  color: #274e75;
 }
 .archive__expendable {
   margin-top: 0.5em;
@@ -1035,7 +1035,7 @@ html {
 }
 body {
   font-family: "Noto Sans";
-  color: #33474d;
+  color: #123;
   display: flex;
   flex-direction: column;
 }
@@ -1059,27 +1059,27 @@ main > h1 {
 }
 a {
   text-decoration: none;
-  color: #33474d;
+  color: #123;
 }
 a:visited {
   color: currentColor;
 }
 a:hover {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#417ad8, #417ad8);
+  background-image: linear-gradient(#0ba6d7, #0ba6d7);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #417ad8;
+  color: #0ba6d7;
   text-decoration: none;
 }
 a:hover::selection {
-  text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
-  background: #417ad8;
+  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+  background: #0ba6d7;
 }
 a:hover::-moz-selection {
-  text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
-  background: #417ad8;
+  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+  background: #0ba6d7;
 }
 a:hover *,
 a:hover *:after,
@@ -1089,7 +1089,7 @@ a:hover:before {
   text-shadow: none;
 }
 a:hover:visited {
-  color: #417ad8;
+  color: #0ba6d7;
 }
 @media screen and (min-width: 100rem) {
   article {
@@ -1105,20 +1105,20 @@ a:hover:visited {
 }
 .different-posts a {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#33474d, #33474d);
+  background-image: linear-gradient(#123, #123);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #33474d;
+  color: #123;
   text-decoration: none;
 }
 .different-posts a::selection {
-  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
-  background: #33474d;
+  text-shadow: 0.03em 0 #123, -0.03em 0 #123, 0 0.03em #123, 0 -0.03em #123, 0.06em 0 #123, -0.06em 0 #123, 0.09em 0 #123, -0.09em 0 #123, 0.12em 0 #123, -0.12em 0 #123, 0.15em 0 #123, -0.15em 0 #123;
+  background: #123;
 }
 .different-posts a::-moz-selection {
-  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
-  background: #33474d;
+  text-shadow: 0.03em 0 #123, -0.03em 0 #123, 0 0.03em #123, 0 -0.03em #123, 0.06em 0 #123, -0.06em 0 #123, 0.09em 0 #123, -0.09em 0 #123, 0.12em 0 #123, -0.12em 0 #123, 0.15em 0 #123, -0.15em 0 #123;
+  background: #123;
 }
 .different-posts a *,
 .different-posts a *:after,
@@ -1128,24 +1128,24 @@ a:hover:visited {
   text-shadow: none;
 }
 .different-posts a:visited {
-  color: #33474d;
+  color: #123;
 }
 .different-posts a:hover {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#417ad8, #417ad8);
+  background-image: linear-gradient(#0ba6d7, #0ba6d7);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #417ad8;
+  color: #0ba6d7;
   text-decoration: none;
 }
 .different-posts a:hover::selection {
-  text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
-  background: #417ad8;
+  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+  background: #0ba6d7;
 }
 .different-posts a:hover::-moz-selection {
-  text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
-  background: #417ad8;
+  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+  background: #0ba6d7;
 }
 .different-posts a:hover *,
 .different-posts a:hover *:after,
@@ -1155,7 +1155,7 @@ a:hover:visited {
   text-shadow: none;
 }
 .different-posts a:hover:visited {
-  color: #417ad8;
+  color: #0ba6d7;
 }
 .different-posts.different-posts_earlier {
   margin-top: 2rem;

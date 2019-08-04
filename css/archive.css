@@ -30,20 +30,20 @@
 }
 .archive__year > span:hover {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#33474d, #33474d);
+  background-image: linear-gradient(#123, #123);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #33474d;
+  color: #123;
   text-decoration: none;
 }
 .archive__year > span:hover::selection {
-  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
-  background: #33474d;
+  text-shadow: 0.03em 0 #123, -0.03em 0 #123, 0 0.03em #123, 0 -0.03em #123, 0.06em 0 #123, -0.06em 0 #123, 0.09em 0 #123, -0.09em 0 #123, 0.12em 0 #123, -0.12em 0 #123, 0.15em 0 #123, -0.15em 0 #123;
+  background: #123;
 }
 .archive__year > span:hover::-moz-selection {
-  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
-  background: #33474d;
+  text-shadow: 0.03em 0 #123, -0.03em 0 #123, 0 0.03em #123, 0 -0.03em #123, 0.06em 0 #123, -0.06em 0 #123, 0.09em 0 #123, -0.09em 0 #123, 0.12em 0 #123, -0.12em 0 #123, 0.15em 0 #123, -0.15em 0 #123;
+  background: #123;
 }
 .archive__year > span:hover *,
 .archive__year > span:hover *:after,
@@ -53,29 +53,29 @@
   text-shadow: none;
 }
 .archive__year > span:hover:visited {
-  color: #33474d;
+  color: #123;
 }
 .archive__month {
   font-family: fonstSerif;
   font-size: 1.777rem;
-  color: #425c64;
+  color: #1c3854;
 }
 .archive__month > span:hover {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#425c64, #425c64);
+  background-image: linear-gradient(#1c3854, #1c3854);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #425c64;
+  color: #1c3854;
   text-decoration: none;
 }
 .archive__month > span:hover::selection {
-  text-shadow: 0.03em 0 #425c64, -0.03em 0 #425c64, 0 0.03em #425c64, 0 -0.03em #425c64, 0.06em 0 #425c64, -0.06em 0 #425c64, 0.09em 0 #425c64, -0.09em 0 #425c64, 0.12em 0 #425c64, -0.12em 0 #425c64, 0.15em 0 #425c64, -0.15em 0 #425c64;
-  background: #425c64;
+  text-shadow: 0.03em 0 #1c3854, -0.03em 0 #1c3854, 0 0.03em #1c3854, 0 -0.03em #1c3854, 0.06em 0 #1c3854, -0.06em 0 #1c3854, 0.09em 0 #1c3854, -0.09em 0 #1c3854, 0.12em 0 #1c3854, -0.12em 0 #1c3854, 0.15em 0 #1c3854, -0.15em 0 #1c3854;
+  background: #1c3854;
 }
 .archive__month > span:hover::-moz-selection {
-  text-shadow: 0.03em 0 #425c64, -0.03em 0 #425c64, 0 0.03em #425c64, 0 -0.03em #425c64, 0.06em 0 #425c64, -0.06em 0 #425c64, 0.09em 0 #425c64, -0.09em 0 #425c64, 0.12em 0 #425c64, -0.12em 0 #425c64, 0.15em 0 #425c64, -0.15em 0 #425c64;
-  background: #425c64;
+  text-shadow: 0.03em 0 #1c3854, -0.03em 0 #1c3854, 0 0.03em #1c3854, 0 -0.03em #1c3854, 0.06em 0 #1c3854, -0.06em 0 #1c3854, 0.09em 0 #1c3854, -0.09em 0 #1c3854, 0.12em 0 #1c3854, -0.12em 0 #1c3854, 0.15em 0 #1c3854, -0.15em 0 #1c3854;
+  background: #1c3854;
 }
 .archive__month > span:hover *,
 .archive__month > span:hover *:after,
@@ -85,7 +85,7 @@
   text-shadow: none;
 }
 .archive__month > span:hover:visited {
-  color: #425c64;
+  color: #1c3854;
 }
 .archive .archive__entry {
   font-family: "Noto Sans", sans-serif;
@@ -94,24 +94,24 @@
   margin-left: 1rem;
 }
 .archive__entry > a {
-  color: #51717b;
+  color: #274e75;
 }
 .archive__entry > a:hover {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
-  background-image: linear-gradient(#51717b, #51717b);
+  background-image: linear-gradient(#274e75, #274e75);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #51717b;
+  color: #274e75;
   text-decoration: none;
 }
 .archive__entry > a:hover::selection {
-  text-shadow: 0.03em 0 #51717b, -0.03em 0 #51717b, 0 0.03em #51717b, 0 -0.03em #51717b, 0.06em 0 #51717b, -0.06em 0 #51717b, 0.09em 0 #51717b, -0.09em 0 #51717b, 0.12em 0 #51717b, -0.12em 0 #51717b, 0.15em 0 #51717b, -0.15em 0 #51717b;
-  background: #51717b;
+  text-shadow: 0.03em 0 #274e75, -0.03em 0 #274e75, 0 0.03em #274e75, 0 -0.03em #274e75, 0.06em 0 #274e75, -0.06em 0 #274e75, 0.09em 0 #274e75, -0.09em 0 #274e75, 0.12em 0 #274e75, -0.12em 0 #274e75, 0.15em 0 #274e75, -0.15em 0 #274e75;
+  background: #274e75;
 }
 .archive__entry > a:hover::-moz-selection {
-  text-shadow: 0.03em 0 #51717b, -0.03em 0 #51717b, 0 0.03em #51717b, 0 -0.03em #51717b, 0.06em 0 #51717b, -0.06em 0 #51717b, 0.09em 0 #51717b, -0.09em 0 #51717b, 0.12em 0 #51717b, -0.12em 0 #51717b, 0.15em 0 #51717b, -0.15em 0 #51717b;
-  background: #51717b;
+  text-shadow: 0.03em 0 #274e75, -0.03em 0 #274e75, 0 0.03em #274e75, 0 -0.03em #274e75, 0.06em 0 #274e75, -0.06em 0 #274e75, 0.09em 0 #274e75, -0.09em 0 #274e75, 0.12em 0 #274e75, -0.12em 0 #274e75, 0.15em 0 #274e75, -0.15em 0 #274e75;
+  background: #274e75;
 }
 .archive__entry > a:hover *,
 .archive__entry > a:hover *:after,
@@ -121,7 +121,7 @@
   text-shadow: none;
 }
 .archive__entry > a:hover:visited {
-  color: #51717b;
+  color: #274e75;
 }
 .archive__expendable {
   margin-top: 0.5em;

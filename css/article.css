@@ -131,7 +131,7 @@ table td {
   border-bottom: 1px solid #d1dde1;
 }
 table tbody tr:hover {
-  background-color: #ecf2fb;
+  background-color: #e4f7fe;
 }
 .article__tag-link:before {
   content: '#';
