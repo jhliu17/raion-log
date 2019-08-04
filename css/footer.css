@@ -6,7 +6,7 @@
 @font-face {
   font-family: "Noto Sans";
   src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: normal;
+  font-style: italic;
 }
 @font-face {
   font-family: "Noto Serif";
@@ -20,11 +20,13 @@
 .footer {
   background-color: #33474d;
   color: #f9fafa;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
   padding-bottom: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-family: "sans-serif";
+  font-weight: 300;
 }
 .footer p {
   margin: 0;
@@ -44,17 +46,24 @@
 }
 .footer__element h5 {
   margin-top: 0;
+  font-family: "sans-serif";
+  font-weight: 300;
+  font-size: 1rem;
+}
+.footer__element li {
+  font-size: 1rem;
+  color: #f9fafa;
 }
 @media only screen and (max-width: 40em) {
   .footer__element {
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   .footer__element {
     width: 50%;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 .footer-links {
@@ -72,6 +81,7 @@
   background-position: 0% 95%;
   color: #f9fafa;
   text-decoration: none;
+  font-size: 1rem;
 }
 .footer a::selection {
   text-shadow: 0.03em 0 #f9fafa, -0.03em 0 #f9fafa, 0 0.03em #f9fafa, 0 -0.03em #f9fafa, 0.06em 0 #f9fafa, -0.06em 0 #f9fafa, 0.09em 0 #f9fafa, -0.09em 0 #f9fafa, 0.12em 0 #f9fafa, -0.12em 0 #f9fafa, 0.15em 0 #f9fafa, -0.15em 0 #f9fafa;
@@ -120,7 +130,9 @@
 }
 .footer-credit {
   margin-top: 2rem;
+  font-size: 1rem;
   width: 100%;
   display: block;
   text-align: center;
+  color: #f9fafa;
 }
