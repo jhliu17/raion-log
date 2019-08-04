@@ -18,9 +18,9 @@
   src: url("fonts/Inconsolata/Inconsolata-Regular.ttf");
 }
 .footer {
-  background-color: #192a56;
+  background-color: #33474d;
   color: #f9fafa;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
   display: flex;
   flex-direction: row;
@@ -65,7 +65,7 @@
   list-style-type: none;
 }
 .footer a {
-  text-shadow: 0.03em 0 #192a56, -0.03em 0 #192a56, 0 0.03em #192a56, 0 -0.03em #192a56, 0.06em 0 #192a56, -0.06em 0 #192a56, 0.09em 0 #192a56, -0.09em 0 #192a56, 0.12em 0 #192a56, -0.12em 0 #192a56, 0.15em 0 #192a56, -0.15em 0 #192a56;
+  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
   background-image: linear-gradient(#f9fafa, #f9fafa);
   background-size: 1px 1px;
   background-repeat: repeat-x;
@@ -92,21 +92,21 @@
   color: #f9fafa;
 }
 .footer a:hover {
-  text-shadow: 0.03em 0 #192a56, -0.03em 0 #192a56, 0 0.03em #192a56, 0 -0.03em #192a56, 0.06em 0 #192a56, -0.06em 0 #192a56, 0.09em 0 #192a56, -0.09em 0 #192a56, 0.12em 0 #192a56, -0.12em 0 #192a56, 0.15em 0 #192a56, -0.15em 0 #192a56;
-  background-image: linear-gradient(#0ba6d7, #0ba6d7);
+  text-shadow: 0.03em 0 #33474d, -0.03em 0 #33474d, 0 0.03em #33474d, 0 -0.03em #33474d, 0.06em 0 #33474d, -0.06em 0 #33474d, 0.09em 0 #33474d, -0.09em 0 #33474d, 0.12em 0 #33474d, -0.12em 0 #33474d, 0.15em 0 #33474d, -0.15em 0 #33474d;
+  background-image: linear-gradient(#417ad8, #417ad8);
   background-size: 1px 1px;
   background-repeat: repeat-x;
   background-position: 0% 95%;
-  color: #0ba6d7;
+  color: #417ad8;
   text-decoration: none;
 }
 .footer a:hover::selection {
-  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
-  background: #0ba6d7;
+  text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
+  background: #417ad8;
 }
 .footer a:hover::-moz-selection {
-  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
-  background: #0ba6d7;
+  text-shadow: 0.03em 0 #417ad8, -0.03em 0 #417ad8, 0 0.03em #417ad8, 0 -0.03em #417ad8, 0.06em 0 #417ad8, -0.06em 0 #417ad8, 0.09em 0 #417ad8, -0.09em 0 #417ad8, 0.12em 0 #417ad8, -0.12em 0 #417ad8, 0.15em 0 #417ad8, -0.15em 0 #417ad8;
+  background: #417ad8;
 }
 .footer a:hover *,
 .footer a:hover *:after,
@@ -116,10 +116,10 @@
   text-shadow: none;
 }
 .footer a:hover:visited {
-  color: #0ba6d7;
+  color: #417ad8;
 }
 .footer-credit {
-  margin-top: 1rem;
+  margin-top: 2rem;
   width: 100%;
   display: block;
   text-align: center;

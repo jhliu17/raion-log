@@ -47,7 +47,7 @@ article h1 {
 h1,
 h2,
 strong {
-  color: #3c4447;
+  color: #33474d;
 }
 h1 a,
 h2 a,
@@ -94,7 +94,7 @@ img {
   margin-bottom: 1rem;
 }
 blockquote {
-  color: #3c4447;
+  color: #33474d;
   border-left: 0.7rem solid #2a4a54;
   margin: 2rem 1rem;
   padding: 0.5rem 1rem;
@@ -123,15 +123,15 @@ table {
   border-spacing: 0;
 }
 table th {
-  border-bottom: 1px solid #3c4447;
+  border-bottom: 1px solid #33474d;
   padding: 0.8rem;
 }
 table td {
   padding: 0.8rem;
-  border-bottom: 1px solid #d6dbdc;
+  border-bottom: 1px solid #d1dde1;
 }
 table tbody tr:hover {
-  background-color: #e4f7fe;
+  background-color: #ecf2fb;
 }
 .article__tag-link:before {
   content: '#';
