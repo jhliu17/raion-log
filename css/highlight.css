@@ -6,7 +6,7 @@
 @font-face {
   font-family: "Noto Sans";
   src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
-  font-style: normal;
+  font-style: italic;
 }
 @font-face {
   font-family: "Noto Serif";
