@@ -187,6 +187,7 @@ article:hover .article__read-more-link {
   background-position: 0% 95%;
   color: #0ba6d7;
   text-decoration: none;
+  text-align: right;
 }
 article:hover .article__read-more-link::selection {
   text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
