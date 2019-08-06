@@ -660,11 +660,14 @@ text-
 }
 .footer-credit {
   margin-top: 2rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
   width: 100%;
   display: block;
   text-align: center;
   color: #f9fafa;
+}
+.footer-credit a {
+  font-size: 0.8rem;
 }
 @font-face {
   font-family: "Noto Sans";
