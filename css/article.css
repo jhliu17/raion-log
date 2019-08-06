@@ -46,6 +46,15 @@ article h1 {
   font-family: "Noto Serif", serif;
   font-size: 2rem;
 }
+article h2 {
+  font-size: 1.8rem;
+}
+article h3 {
+  font-size: 1.4rem;
+}
+article h4 {
+  font-size: 1.2rem;
+}
 h1,
 h2,
 strong {
@@ -60,6 +69,13 @@ h5 a {
 }
 h1,
 h2,
+h3,
+h4,
+h5 {
+  margin-top: 1em;
+  margin-bottom: 1rem;
+  text-align: left;
+}
 h3,
 h4,
 h5 {
