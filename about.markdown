@@ -6,4 +6,4 @@ permalink: /about/
 
 Who am I?
 
-Test1
+Test
