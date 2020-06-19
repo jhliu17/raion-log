@@ -1,17 +1,19 @@
 title: Raion's Blog
-author: Raion
-email: jhliu17@foxmail.com
+author: ""
 description: What I can not create, I do not understand.
 baseurl: "/raion-log"
 url: "https://jhliu17.github.io"
 
 # Build settings
-theme: minima
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
 excerpt_separator: <!--more-->
 plugins:
   - jekyll-feed
+  - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
