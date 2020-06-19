@@ -8,6 +8,6 @@ Who am I?
 
 中文测试
 
-'''python
+```python
 import torch
-'''
+```
