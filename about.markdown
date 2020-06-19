@@ -6,4 +6,8 @@ permalink: /about/
 
 Who am I?
 
-Test
+中文测试
+
+'''python
+import torch
+'''
