@@ -8,6 +8,8 @@ url: "https://jhliu17.github.io"
 markdown: kramdown
 highlighter: rouge
 kramdown:
+  input: GFM
+  auto_ids: true
   syntax_highlighter: rouge
 excerpt_separator: <!--more-->
 plugins:

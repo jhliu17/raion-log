@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2020-06-11 10:05:21 +0800
 categories: jekyll update
+tag: classic hollywood
 ---
 
 > In this series of posts :tent: on "Object Detection for Dummies", we will go through several basic concepts, algorithms, and popular deep learning models for image processing and objection detection. Hopefully, it would be a good read for people with no experience in this field but want to learn more. The Part 1 introduces the concept of Gradient Vectors, the HOG (Histogram of Oriented Gradients) algorithm, and Selective Search for image segmentation.
@@ -40,7 +41,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 
 ## Markdown Test
-### Test latex
+### Latex
 
 $$
 \textit{Hello} = \frac{1}{n}
@@ -65,6 +66,7 @@ $$
 $$
 
 ### List
+
 - df
 - dfdff
 - dfsl
@@ -75,30 +77,8 @@ $$
 - [ ] Contact the media
 
 ### Code
-```python
-# Random location [200, 200] as an example.
-loc_x = loc_y = 200
 
-ydata = get_magnitude_hist_block(loc_x, loc_y)
-ydata = ydata / np.linalg.norm(ydata)
-
-xdata = range(len(ydata))
-bucket_names = np.tile(np.arange(N_BUCKETS), BLOCK_SIZE * BLOCK_SIZE)
-
-assert len(ydata) == N_BUCKETS * (BLOCK_SIZE * BLOCK_SIZE)
-assert len(bucket_names) == len(ydata)
-
-plt.figure(figsize=(10, 3))
-plt.bar(xdata, ydata, align='center', alpha=0.8, width=0.9)
-plt.xticks(xdata, bucket_names * 20, rotation=90)
-plt.xlabel('Direction buckets')
-plt.ylabel('Magnitude')
-plt.grid(ls='--', color='k', alpha=0.1)
-plt.title("HOG of block at [%d, %d]" % (loc_x, loc_y))
-plt.tight_layout()
-```
-
-```python
+{% highlight python %}
 import numpy as np
 import scipy
 import scipy.signal as sig
@@ -123,7 +103,7 @@ ax2 = fig.add_subplot(122)
 ax1.imshow((G_x + 255) / 2, cmap='gray'); ax1.set_xlabel("Gx")
 ax2.imshow((G_y + 255) / 2, cmap='gray'); ax2.set_xlabel("Gy")
 plt.show()
-```
+{% endhighlight %}
 
 ### Image
 ![Block histogram]({{ '/assets/images/block_histogram.png' | relative_url }})

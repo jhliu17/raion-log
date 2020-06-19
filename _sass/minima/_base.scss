@@ -125,16 +125,18 @@ a {
 }
 
 
+
 /**
  * Blockquotes
  */
-blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
+ blockquote {
+  color: #777777;
+  border-left: 4px solid #bbbbbb;
+  padding: 10px;
+  margin: 10px;
+  padding-left: 25px;
+  @include relative-font-size(0.9);
+  background: #f0f0f0;
 
   > :last-child {
     margin-bottom: 0;
@@ -146,28 +148,32 @@ blockquote {
 /**
  * Code formatting
  */
-pre,
-code {
-  @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
-}
+ pre,
+ code {
+   @include relative-font-size(0.9375);
+   border: 1px solid $grey-color-light;
+   border-radius: 3px;
+   background-color: #f2f2f2;
+ }
 
-code {
-  padding: 1px 5px;
-}
+ code {
+   padding: 1px 5px;
+ }
 
-pre {
-  padding: 8px 12px;
-  overflow-x: auto;
+ pre {
+   padding: 4px 6px;
+   overflow-x: auto;
 
-  > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
+   > code {
+     border: 0;
+     padding-right: 0;
+     padding-left: 0;
+   }
+
+   .lineno {
+     @include relative-font-size(0.9);
+   }
+ }
 
 
 
@@ -250,5 +256,24 @@ table {
   }
   td {
     border: 1px solid $grey-color-light;
+  }
+}
+
+table.info {
+  max-width: 100%;
+  border-top: 2px solid $grey-color;
+  border-bottom: 2px solid $grey-color;
+  margin: 20px auto;
+  font-size: 90%;
+
+  th, td {
+    padding: 2px 6px;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    text-align: center;
+    border-bottom: 1px solid $grey-color-light;
   }
 }
