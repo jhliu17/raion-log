@@ -221,6 +221,21 @@
   > li {
     margin-bottom: $spacing-unit;
   }
+
+  a.post-tag {
+    font-size: $small-font-size;
+    border-radius: 5px;
+    border: 1px solid $grey-color;
+    color: $grey-color;
+    padding: 1px 5px;
+    margin-left: 5px;
+    &:hover {
+      border: 1px solid $brand-color;
+      text-decoration: none;
+      color: #ffffff;
+      background: $brand-color;
+    }
+  }
 }
 
 .post-meta {
@@ -244,7 +259,7 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  @include relative-font-size(1.6);
 }
 
 

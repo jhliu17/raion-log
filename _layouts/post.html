@@ -9,9 +9,19 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
-      {%- if page.author -%}
+      <!-- {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+      {%- endif -%}</p> -->
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        by <span itemprop="name">{{ site.author }}</span>
+      </span>
+
+      <span>
+        {% for tag in page.tags %}
+          {% capture tag_name %}{{ tag }}{% endcapture %}
+          <a class="post-tag" href="/raion-log/tags/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
+        {% endfor %}
+      </span>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
