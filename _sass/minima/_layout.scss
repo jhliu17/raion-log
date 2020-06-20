@@ -6,7 +6,8 @@
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
-  background: #000000;
+  // background: #000000;
+  background: $brand-color;
   opacity: 1.0;
 
   // Positioning context for the mobile navigation icon
