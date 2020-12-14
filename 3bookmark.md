@@ -4,7 +4,7 @@ title: Bookmark
 permalink: /bookmark/
 ---
 
-## Go Road to Computer Science
+## Starting Road to Computer Science
 
 - CS 61B: Data Structures
 - CS 61C: Computer Things
@@ -13,7 +13,8 @@ permalink: /bookmark/
 
 ## Well-classified Natural Language Processing Reading List
 
-- COS 598C: Deep Learning for Natural Language Processing [[archive]](https://www.cs.princeton.edu/courses/archive/spring20/cos598C/)
+- COS 598C: Deep Learning for Natural Language Processing [[Course Archive]](https://www.cs.princeton.edu/courses/archive/spring20/cos598C/)
+- Speech and Language Processing (3rd ed. draft) [[Book]](https://web.stanford.edu/~jurafsky/slp3/)
 
 
 ## Programming Books
