@@ -21,3 +21,9 @@ permalink: /bookmark/
 
 - Modern C++ Tutorial: C++ 11/14/17/20 On the Fly [[Book]](https://changkun.de/modern-cpp/zh-cn/00-preface/)
 - Fluent Python
+
+
+### Job Related Things
+
+- NLP Engineer Required Knowledge [[Github]](https://github.com/DA-southampton/NLP_ability)
+- Large-scale Systems Design [[Github]](https://github.com/donnemartin/system-design-primer)
