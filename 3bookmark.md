@@ -28,3 +28,4 @@ permalink: /bookmark/
 - NLP Engineer Required Knowledge [[Github]](https://github.com/DA-southampton/NLP_ability)
 - Large-scale Systems Design [[Github]](https://github.com/donnemartin/system-design-primer)
 - C++ Interview [[Github]](https://github.com/huihut/interview)
+- C++ Leetcode Solutions [[Github]](https://github.com/changgyhub/leetcode_101)
