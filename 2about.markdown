@@ -4,10 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Who am I?
+![March comes in like a lion]({{ '/assets/images/raion.jpg' | relative_url }})
+{: class="center"}
 
-中文测试
+## This is the blog site of Raion.
 
-```python
-import torch
-```
+Now, I am a master student at UCAS (University of Chinese Academy of Sciencess). I am interested in Machine Learning, Natrual Language Processing, and Coding.
