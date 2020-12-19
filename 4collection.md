@@ -18,11 +18,11 @@ permalink: /collection/
 
 ### Deep Learning Related Tools
 
-**Vision**
+**Computer Vision**
 
 - Image Model / Visual Features Extraction [[Github]](https://github.com/rwightman/pytorch-image-models/)
 
-**Language**
+**Natrual Language**
 
 - Facebook Seq2seq Learning Libarary [[Github]](https://github.com/pytorch/fairseq)
 - Harvard Open Nerual Machine Translation [[Github]](https://github.com/OpenNMT/OpenNMT-py)
