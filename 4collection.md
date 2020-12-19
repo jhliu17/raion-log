@@ -7,6 +7,9 @@ permalink: /collection/
 
 ### Programming
 
+**Linux**
+- Tmux Cheatsheet [[Site]](https://segmentfault.com/a/1190000007427965)
+
 **Machine Learning**
 
 - Pytorch Lightening [[Docs]](https://pytorch-lightning.readthedocs.io/en/stable/)
