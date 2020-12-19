@@ -7,6 +7,10 @@ url: "https://jhliu17.github.io"
 # Build settings
 markdown: kramdown
 highlighter: rouge
+header_pages:
+  - archive.md
+  - tags.md
+  - about.md
 kramdown:
   input: GFM
   auto_ids: true
