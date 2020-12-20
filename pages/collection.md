@@ -29,3 +29,4 @@ permalink: /collection/
 
 - Facebook Seq2seq Learning Libarary [[Github]](https://github.com/pytorch/fairseq)
 - Harvard Open Nerual Machine Translation [[Github]](https://github.com/OpenNMT/OpenNMT-py)
+- Conditional Random Field in PyTorch [[Github]](https://github.com/kmkurn/pytorch-crf)
