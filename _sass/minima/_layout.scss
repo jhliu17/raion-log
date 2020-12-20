@@ -318,6 +318,9 @@
 */
 .other-pages {
   margin-top: $spacing-unit * 0.35;
+  hr {
+    margin-bottom: $spacing-unit * 0.8;
+  }
 }
 
 div.qa {
