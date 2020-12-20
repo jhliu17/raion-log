@@ -26,7 +26,7 @@ permalink: /bookmark/
 
 **Causal Inference**
 
-- Introduction Book of Causal Inference [[Book]](https://www.bradyneal.com/Introduction_to_Causal_Inference-Sep17_2020-Neal.pdf)
+- Introduction Book of Causal Inference [[Course Archive]](https://www.bradyneal.com/causal-inference-course) [[Book]](https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf)
 
 
 ### Programming Books
