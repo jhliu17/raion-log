@@ -4,7 +4,7 @@ title: Tags
 permalink: /tags/
 ---
 <div class="home other-pages">
-  <h1 class="page-heading">🔖 Tags</h1>
+  <h1 class="page-heading">Tags</h1>
   {% capture temp_tags %}
     {% for tag in site.tags %}
       {{ tag[1].size | plus: 1000 }}#{{ tag[0] }}#{{ tag[1].size }}
