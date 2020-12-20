@@ -5,7 +5,7 @@ permalink: /leetcode/
 ---
 
 <div class="home other-pages">
-  <h1 class="page-heading">📎 Leetcode Archive</h1>
+  <h1 class="page-heading">📝 Leetcode Archive</h1>
   <ul class="posts">
   {% for post in site.leetcode %}
     <li>
