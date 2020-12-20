@@ -11,10 +11,22 @@ permalink: /bookmark/
 - CS 162: Operating Systems and System Programming [[Course Archive]](https://inst.eecs.berkeley.edu/~cs162/sp20/)
 - CMU 15-445: Database Systems [[Course Archive]](https://15445.courses.cs.cmu.edu/fall2019/)
 
+
 ### Well-classified Natural Language Processing Reading List
 
 - COS 598C: Deep Learning for Natural Language Processing [[Course Archive]](https://www.cs.princeton.edu/courses/archive/spring20/cos598C/)
 - Speech and Language Processing (3rd ed. draft) [[Book]](https://web.stanford.edu/~jurafsky/slp3/)
+
+
+### Machine Learning
+
+**Abductive Learning**
+
+- Yang Yu's Slide [[Zhihu]](https://zhuanlan.zhihu.com/p/161715666) [[Paper]](http://www.lamda.nju.edu.cn/yuy/GetFile.aspx?File=papers/neurips19abl.pdf&AspxAutoDetectCookieSupport=1) [[Code]](https://agit.ai/Polixir/ABL-Sym/src/branch/master)
+
+**Causal Inference**
+
+- Introduction Book of Causal Inference [[Book]](https://www.bradyneal.com/Introduction_to_Causal_Inference-Sep17_2020-Neal.pdf)
 
 
 ### Programming Books
