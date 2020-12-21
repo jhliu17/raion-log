@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bookmark
-# permalink: /bookmark/
+permalink: /bookmark/
 ---
 
 ### Starting Road to Computer Science

@@ -25,10 +25,6 @@ plugins:
 collections:
   leetcode:
     output: true
-  pages:
-    output: true
-  tags:
-    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
