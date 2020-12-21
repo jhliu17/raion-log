@@ -7,8 +7,10 @@ permalink: /collection/
 
 ### Programming
 
-**Linux**
+**Tools**
+
 - Tmux Cheatsheet [[Site]](https://segmentfault.com/a/1190000007427965)
+- Python Debugger Cheatsheet [[Zhihu]](https://zhuanlan.zhihu.com/p/37294138)
 
 **Machine Learning**
 
