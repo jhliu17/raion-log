@@ -26,18 +26,18 @@ permalink: /bookmark/
 
 ### Tutorials & Slides
 
-**Approximate Nearest Neighbor Search**
+Approximate Nearest Neighbor Search
 
-- MM20 Tutorial: Billion-scale Approximate Nearest Neighbor Search [[Slide]](/assets/files/acmmm-t-part3-ann.pdf)
+- MM20 Tutorial: Billion-scale Approximate Nearest Neighbor Search [[Slide]]({{ '/assets/files/acmmm-t-part3-ann.pdf' | relative_url })
 
 
 ### Machine Learning Reading Materials
 
-**Abductive Learning**
+Abductive Learning
 
 - Yang Yu's Slide [[Zhihu]](https://zhuanlan.zhihu.com/p/161715666) [[Paper]](http://www.lamda.nju.edu.cn/yuy/GetFile.aspx?File=papers/neurips19abl.pdf&AspxAutoDetectCookieSupport=1) [[Code]](https://agit.ai/Polixir/ABL-Sym/src/branch/master)
 
-**Causal Inference**
+Causal Inference
 
 - Introduction Book of Causal Inference [[Course Archive]](https://www.bradyneal.com/causal-inference-course) [[Book]](https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf)
 
