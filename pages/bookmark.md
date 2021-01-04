@@ -28,7 +28,7 @@ permalink: /bookmark/
 
 **Approximate Nearest Neighbor Search**
 
-- MM20 Tutorial: Billion-scale Approximate Nearest Neighbor Search [[Slide]](assets/files/acmmm-t-part3-ann.pdf)
+- MM20 Tutorial: Billion-scale Approximate Nearest Neighbor Search [[Slide]](/assets/files/acmmm-t-part3-ann.pdf)
 
 
 ### Machine Learning Reading Materials
