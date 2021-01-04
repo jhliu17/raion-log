@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Collection
-permalink: /collection/
+title: Toolbox
+permalink: /toolbox/
 ---
 
 
