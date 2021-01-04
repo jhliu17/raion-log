@@ -24,7 +24,14 @@ permalink: /bookmark/
 - Speech and Language Processing (3rd ed. draft) [[Book]](https://web.stanford.edu/~jurafsky/slp3/)
 
 
-### Machine Learning
+### Tutorials & Slides
+
+**Approximate Nearest Neighbor Search**
+
+- MM20 Tutorial: Billion-scale Approximate Nearest Neighbor Search [[Slide]](assets/files/acmmm-t-part3-ann.pdf)
+
+
+### Machine Learning Reading Materials
 
 **Abductive Learning**
 
@@ -42,7 +49,7 @@ permalink: /bookmark/
 - Marian (NMT framework written in pure C++)  [[Github]](https://github.com/marian-nmt/marian) [[Paper]](https://www.aclweb.org/anthology/P18-4020.pdf)
 
 
-### Job Related Things
+### Job Related Materials
 
 - NLP Engineer Required Knowledge [[Github]](https://github.com/DA-southampton/NLP_ability)
 - Large-scale Systems Design [[Github]](https://github.com/donnemartin/system-design-primer)
