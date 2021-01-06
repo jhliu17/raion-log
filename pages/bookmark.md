@@ -33,6 +33,10 @@ Approximate Nearest Neighbor Search
 
 ### Machine Learning Reading Materials
 
+Machine Learning Foundation
+
+- Probabilistic Machine Learning: An Introduction [[Book]](/raion-log/assets/files/pml1.pdf)
+
 Abductive Learning
 
 - Yang Yu's Slide [[Zhihu]](https://zhuanlan.zhihu.com/p/161715666) [[Paper]](http://www.lamda.nju.edu.cn/yuy/GetFile.aspx?File=papers/neurips19abl.pdf&AspxAutoDetectCookieSupport=1) [[Code]](https://agit.ai/Polixir/ABL-Sym/src/branch/master)
@@ -54,4 +58,5 @@ Causal Inference
 - NLP Engineer Required Knowledge [[Github]](https://github.com/DA-southampton/NLP_ability)
 - Large-scale Systems Design [[Github]](https://github.com/donnemartin/system-design-primer)
 - C++ Interview [[Github]](https://github.com/huihut/interview)
+- Java Interview [[Github]](https://github.com/gsjqwyl/JavaInterview)
 - C++ Leetcode Solutions [[Github]](https://github.com/changgyhub/leetcode_101)
