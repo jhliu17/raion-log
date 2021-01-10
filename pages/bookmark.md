@@ -4,7 +4,7 @@ title: Bookmark
 permalink: /bookmark/
 ---
 
-### Starting Road to Computer Science
+## Starting Road to Computer Science
 
 - CS 61B: Data Structures [[Course Archive]](https://sp19.datastructur.es/)
 - CS 61C: Great Ideas in Computer Architecture (Machine Structures) [[Course Archive]](https://cs61c.org/su20/)
@@ -15,7 +15,7 @@ permalink: /bookmark/
 - CMU 15-445: Database Systems [[Course Archive]](https://www.cs.cmu.edu/~15451-f20/schedule.html)
 
 
-### Well-classified Machine Learning Reading Materials
+## Well-classified Machine Learning Reading Materials
 
 - CMU 16-385: Computer Vision (including image processing, optical flow, camera models, etc.) [[Course Archive]](http://www.cs.cmu.edu/~16385/)
 - CS 131: Computer Vision: Foundations and Applications [[Course Archive]](http://vision.stanford.edu/teaching/cs131_fall2021/index.html)
@@ -24,39 +24,40 @@ permalink: /bookmark/
 - Speech and Language Processing (3rd ed. draft) [[Book]](https://web.stanford.edu/~jurafsky/slp3/)
 
 
-### Tutorials & Slides
+## Tutorials & Slides
 
-Approximate Nearest Neighbor Search
+### Approximate Nearest Neighbor Search
 
 - MM20 Tutorial: Billion-scale Approximate Nearest Neighbor Search [[Slide]](/raion-log/assets/files/acmmm-t-part3-ann.pdf)
 
 
-### Machine Learning Reading Materials
+## Machine Learning Reading Materials
 
-Machine Learning Foundation
+### Machine Learning Foundation
 
 - Probabilistic Machine Learning: An Introduction [[Book]](/raion-log/assets/files/pml1.pdf)
 
-Abductive Learning
+### Abductive Learning
 
 - Yang Yu's Slide [[Zhihu]](https://zhuanlan.zhihu.com/p/161715666) [[Paper]](http://www.lamda.nju.edu.cn/yuy/GetFile.aspx?File=papers/neurips19abl.pdf&AspxAutoDetectCookieSupport=1) [[Code]](https://agit.ai/Polixir/ABL-Sym/src/branch/master)
 
-Causal Inference
+### Causal Inference
 
 - Introduction Book of Causal Inference [[Course Archive]](https://www.bradyneal.com/causal-inference-course) [[Book]](https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf)
 
 
-### Programming Books & Codes
+## Programming Books & Codes
 
 - Modern C++ Tutorial: C++ 11/14/17/20 On the Fly [[Book]](https://changkun.de/modern-cpp/zh-cn/00-preface/)
 - Fluent Python
 - Marian (NMT framework written in pure C++)  [[Github]](https://github.com/marian-nmt/marian) [[Paper]](https://www.aclweb.org/anthology/P18-4020.pdf)
 
 
-### Job Related Materials
+## Job Related Materials
 
 - NLP Engineer Required Knowledge [[Github]](https://github.com/DA-southampton/NLP_ability)
 - Large-scale Systems Design [[Github]](https://github.com/donnemartin/system-design-primer)
+- Full Stack Tutorial [[Github]](https://github.com/frank-lam/fullstack-tutorial)
 - C++ Interview [[Github]](https://github.com/huihut/interview)
 - Java Interview [[Github]](https://github.com/gsjqwyl/JavaInterview)
 - C++ Leetcode Solutions [[Github]](https://github.com/changgyhub/leetcode_101)
