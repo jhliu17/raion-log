@@ -206,11 +206,28 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+  font-size: medium;
+
+  h1{
+    font-size: x-large;
+    // font-weight: 500;
+  }
+
+  h2 {
+    font-size: large;
+    font-weight: 400;
+  }
+
+  h3 {
+    font-size: medium;
+    font-weight: 300;
+  }
 }
 
 .page-heading {
-  @include relative-font-size(2);
+  @include relative-font-size(4);
   // font-weight: 500;
+  // font-size: xx-large;
 }
 
 .post-list-heading {
