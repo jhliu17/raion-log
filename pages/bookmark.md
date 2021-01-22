@@ -51,6 +51,7 @@ permalink: /bookmark/
 - Modern C++ Tutorial: C++ 11/14/17/20 On the Fly [[Book]](https://changkun.de/modern-cpp/zh-cn/00-preface/)
 - Fluent Python
 - Marian (NMT framework written in pure C++)  [[Github]](https://github.com/marian-nmt/marian) [[Paper]](https://www.aclweb.org/anthology/P18-4020.pdf)
+- NiuTrans.NMT [[Github]](https://github.com/NiuTrans/NiuTrans.NMT)
 
 
 ## Job Related Materials
