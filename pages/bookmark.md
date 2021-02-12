@@ -46,8 +46,9 @@ permalink: /bookmark/
 - Introduction Book of Causal Inference [[Course Archive]](https://www.bradyneal.com/causal-inference-course) [[Book]](https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf)
 
 
-## Programming Books & Codes
+## Programming Books & Tutorials
 
+- CS 106L: Standard C++ Programming [[Course Archive]](http://cs106l.stanford.edu/)
 - Modern C++ Tutorial: C++ 11/14/17/20 On the Fly [[Book]](https://changkun.de/modern-cpp/zh-cn/00-preface/)
 - Fluent Python
 - Marian (NMT framework written in pure C++)  [[Github]](https://github.com/marian-nmt/marian) [[Paper]](https://www.aclweb.org/anthology/P18-4020.pdf)
