@@ -57,10 +57,11 @@ permalink: /bookmark/
 
 ## Job Related Materials
 
-- NLP Engineer Required Knowledge [[Github]](https://github.com/DA-southampton/NLP_ability)
-- Large-scale Systems Design [[Github]](https://github.com/donnemartin/system-design-primer)
-- Full Stack Tutorial [[Github]](https://github.com/frank-lam/fullstack-tutorial)
+- CS Required Knowledge [[Github]](https://github.com/CyC2018/CS-Notes)
 - C++ Interview [[Github]](https://github.com/huihut/interview)
 - Java Interview [[Github]](https://github.com/gsjqwyl/JavaInterview)
 - C++ Leetcode Solutions [[Github]](https://github.com/changgyhub/leetcode_101)
 - Learning Vim [[Github]](https://github.com/iggredible/Learn-Vim)
+- NLP Engineer Required Knowledge [[Github]](https://github.com/DA-southampton/NLP_ability)
+- Large-scale Systems Design [[Github]](https://github.com/donnemartin/system-design-primer)
+- Full Stack Tutorial [[Github]](https://github.com/frank-lam/fullstack-tutorial)
