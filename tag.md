@@ -14,7 +14,7 @@ permalink: /tags/
   {% for temp_tag in sorted_temp_tags %}
     {% assign tag_items = temp_tag | split: '#' %}
     <span class="post-meta">
-      <a class="post-tag" href="/raion-log/tags/{{ tag_items[1] }}/">{{ tag_items[1]}} ({{ tag_items[2] }})</a>
+      <a class="post-tag" href="/raion-log/tag/{{ tag_items[1] }}/">{{ tag_items[1]}} ({{ tag_items[2] }})</a>
     </span><br/>
   {% endfor %}
 </div>

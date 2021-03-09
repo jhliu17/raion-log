@@ -9,7 +9,7 @@ markdown: kramdown
 highlighter: rouge
 header_pages:
   - archive.md
-  - tags.md
+  - tag.md
   - about.md
 kramdown:
   input: GFM

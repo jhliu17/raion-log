@@ -1,43 +1,28 @@
 ---
 layout: default
 ---
-
 <div class="home other-pages">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-    <h1 class="page-heading">{{ page.list_title | default: "Posts" }}</h1>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
+  <ul class="post-list">
+    {% for post in site.posts %}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <span>
-          {% for tag in post.tags %}
-            {% capture tag_name %}{{ tag }}{% endcapture %}
-            <a class="post-tag" href="/raion-log/tags/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
-          {% endfor %}
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">
+          {{ post.date | date: date_format }}
+          <span>
+            {% for tag in post.tags %}
+              {% capture tag_name %}{{ tag }}{% endcapture %}
+              <a class="post-tag" href="/raion-log/tag/{{ tag_name }}"><nobr>{{ tag_name }}</nobr>&nbsp;</a>
+            {% endfor %}
+          </span>
         </span>
+
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           {% if post.excerpt %}
             {{ post.excerpt }}
           {% endif %}
         </h2>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
       </li>
-      {%- endfor -%}
-    </ul>
-
-    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
-  {%- endif -%}
-
-</div>
+    {% endfor %}
+  </ul>
+ </div>
