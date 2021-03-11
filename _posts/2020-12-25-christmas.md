@@ -2,6 +2,7 @@
 layout: post
 title:  "2020、圣诞、我"
 tags: life
+comments: true
 date:   2020-12-25 22:05:21 +0800
 ---
 
