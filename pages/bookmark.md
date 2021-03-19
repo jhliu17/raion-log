@@ -10,7 +10,7 @@ permalink: /bookmark/
 - CS 61C: Great Ideas in Computer Architecture (Machine Structures) [[Course Archive]](https://cs61c.org/su20/)
 - CS 106L: Standard C++ Programming [[Course Archive]](http://cs106l.stanford.edu/)
 - CS 162: Operating Systems and System Programming [[Course Archive]](https://inst.eecs.berkeley.edu/~cs162/sp20/)
-- MIT 6.828: Operating System Engineering [[Course Archive]](https://pdos.csail.mit.edu/6.S081/2020/) [[Zhihu]](https://zhuanlan.zhihu.com/p/74028717)
+- MIT 6.S081: Operating System Engineering [[Course Archive]](https://pdos.csail.mit.edu/6.S081/2020/schedule.html) [[Zhihu]](https://zhuanlan.zhihu.com/p/74028717) [[LearnSys]](https://learn-sys.github.io/)
 - CS 170: Efficient Algorithms and Intractable Problems [[Course Archive]](https://cs170.org/)
 - CMU 15-451/651: Algorithms [[Course Archive]](https://15445.courses.cs.cmu.edu/fall2019/)
 - CMU 15-445: Database Systems [[Course Archive]](https://www.cs.cmu.edu/~15451-f20/schedule.html)
