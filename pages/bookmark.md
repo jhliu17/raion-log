@@ -8,11 +8,13 @@ permalink: /bookmark/
 
 - CS 61B: Data Structures [[Course Archive]](https://sp19.datastructur.es/)
 - CS 61C: Great Ideas in Computer Architecture (Machine Structures) [[Course Archive]](https://cs61c.org/su20/)
+- CS 106L: Standard C++ Programming [[Course Archive]](http://cs106l.stanford.edu/)
 - CS 162: Operating Systems and System Programming [[Course Archive]](https://inst.eecs.berkeley.edu/~cs162/sp20/)
 - MIT 6.828: Operating System Engineering [[Course Archive]](https://pdos.csail.mit.edu/6.S081/2020/) [[Zhihu]](https://zhuanlan.zhihu.com/p/74028717)
 - CS 170: Efficient Algorithms and Intractable Problems [[Course Archive]](https://cs170.org/)
 - CMU 15-451/651: Algorithms [[Course Archive]](https://15445.courses.cs.cmu.edu/fall2019/)
 - CMU 15-445: Database Systems [[Course Archive]](https://www.cs.cmu.edu/~15451-f20/schedule.html)
+- CS 2043: Unix Tools and Scripting [[Course Archive]](https://www.cs.cornell.edu/courses/cs2043/2019sp/)
 
 
 ## Well-classified Machine Learning Reading Materials
@@ -48,7 +50,6 @@ permalink: /bookmark/
 
 ## Programming Books & Tutorials
 
-- CS 106L: Standard C++ Programming [[Course Archive]](http://cs106l.stanford.edu/)
 - Modern C++ Tutorial: C++ 11/14/17/20 On the Fly [[Book]](https://changkun.de/modern-cpp/zh-cn/00-preface/)
 - Fluent Python
 - Marian (NMT framework written in pure C++)  [[Github]](https://github.com/marian-nmt/marian) [[Paper]](https://www.aclweb.org/anthology/P18-4020.pdf)
