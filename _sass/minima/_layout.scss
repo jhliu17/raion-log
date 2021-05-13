@@ -251,6 +251,11 @@ div.qa {
     }
   }
 
+  p {
+    .circular--square {
+      border-radius:50%;
+    }
+  }
 }
 
 .image-caption {
