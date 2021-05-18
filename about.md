@@ -10,7 +10,7 @@ permalink: /about/
 
 ## Junhao Liu (Raion)
 
-> *"What I cannot create, I do not understand."*
+> "What I cannot create, I do not understand."
 
 This is the blog site of Raion. Currently, I am a Master's student at UCAS (University of Chinese Academy of Sciences). I am interested in Machine Learning, Natural Language Processing, and Programming. My research interests lie in Question Answering, Multi-lingual Representation, and Multi-modal Learning.
 [[Resume]](/raion-log/assets/files/resume.pdf) [[Github]](https://github.com/jhliu17)
