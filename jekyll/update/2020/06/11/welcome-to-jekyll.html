@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  
+    
+
+
+
+
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Welcome to Jekyll!</title>
+
+  <meta name="description" content="In this series of posts :tent: on “Object Detection for Dummies”, we will go through several basic concepts, algorithms, and popular deep learning models for...">
+
+  <meta content="Raion's Log" property="og:site_name">
+  
+      <meta content="Welcome to Jekyll!" property="og:title">
+  
+  
+      <meta content="article" property="og:type">
+  
+  
+      <meta content="In this series of posts :tent: on “Object Detection for Dummies”, we will go through several basic concepts, algorithms, and popular deep learning models for image processing and objection detection. Hopefully, it would be a good read for people with no experience in this field but want to learn more...." property="og:description">
+  
+  
+      <meta content="https://jhliu17.github.io/jekyll/update/2020/06/11/welcome-to-jekyll.html" property="og:url">
+  
+  
+      <meta content="2020-06-11T02:05:21+00:00" property="article:published_time">
+      <meta content="https://jhliu17.github.io/about/" property="article:author">
+  
+  
+  
+      
+      <meta content="base" property="article:tag">
+      
+  
+
+  <link rel="shortcut icon" href="/raion-log/assets/icons/lion.svg">
+  <link rel="stylesheet" href="/raion-log/assets/css/main.css">
+  <link rel="canonical" href="https://jhliu17.github.io/raion-log/jekyll/update/2020/06/11/welcome-to-jekyll.html">
+
+  <!-- For Latex -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+  <!-- Google Analytics -->
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-8161570-6', 'auto');
+      ga('send', 'pageview');
+  </script>
+
+  <!-- For Facebook share button -->
+  <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+  <!-- Twitter cards -->
+  <meta name="twitter:site"    content="@">
+  <meta name="twitter:creator" content="@Junhao Liu">
+  <meta name="twitter:title"   content="Welcome to Jekyll!">
+
+  
+      <meta name="twitter:description" content="<blockquote>
+  <p>In this series of posts :tent: on “Object Detection for Dummies”, we will go through several basic concepts, algorithms, and popular deep learning models for image processing and objection detection. Hopefully, it would be a good read for people with no experience in this field but want to learn more. The Part 1 introduces the concept of Gradient Vectors, the HOG (Histogram of Oriented Gradients) algorithm, and Selective Search for image segmentation.</p>
+</blockquote>
+
+">
+  
+
+  
+      <meta name="twitter:card"  content="summary">
+      <meta name="twitter:image" content="">
+  
+  <!-- end of Twitter cards -->
+
+</head>
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/raion-log/">Raion&#39;s Log</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/raion-log/archive/">Archive</a><a class="page-link" href="/raion-log/tags/">Tags</a><a class="page-link" href="/raion-log/about/">About</a></div>
+      </nav></div>
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Welcome to Jekyll!</h1>
+    <p class="post-meta">
+
+      <time datetime="2020-06-11T02:05:21+00:00" itemprop="datePublished">
+        
+        Jun 11, 2020
+      </time>
+
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        by <span itemprop="name">Junhao Liu</span>
+      </span>
+
+      <span>
+        
+          
+          <a class="post-tag" href="/raion-log/tag/base"><nobr>base</nobr>&nbsp;</a>
+        
+      </span>
+      <!--
+      <span class="share-buttons">
+        <span class="share-button"><a class="twitter-share-button" href="https://twitter.com/share" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></span>
+        <span class="share-button"><span class="fb-like" data-href="/jekyll/update/2020/06/11/welcome-to-jekyll.html" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></span></span>
+      </span>
+      <div style="clear: both;"/>
+      -->
+
+    </p>
+  </header>
+  
+  <div class="post-content" itemprop="articleBody">
+    <blockquote>
+  <p>In this series of posts :tent: on “Object Detection for Dummies”, we will go through several basic concepts, algorithms, and popular deep learning models for image processing and objection detection. Hopefully, it would be a good read for people with no experience in this field but want to learn more. The Part 1 introduces the concept of Gradient Vectors, the HOG (Histogram of Oriented Gradients) algorithm, and Selective Search for image segmentation.</p>
+</blockquote>
+
+<!--more-->
+
+<ul class="table-of-content" id="markdown-toc">
+  <li><a href="#markdown-test" id="markdown-toc-markdown-test">Markdown Test</a>    <ul>
+      <li><a href="#latex" id="markdown-toc-latex">Latex</a></li>
+      <li><a href="#list" id="markdown-toc-list">List</a></li>
+      <li><a href="#table-list" id="markdown-toc-table-list">Table List</a></li>
+      <li><a href="#code" id="markdown-toc-code">Code</a></li>
+      <li><a href="#image" id="markdown-toc-image">Image</a></li>
+      <li><a href="#link" id="markdown-toc-link">Link</a></li>
+      <li><a href="#table" id="markdown-toc-table">Table</a></li>
+      <li><a href="#footnote" id="markdown-toc-footnote">Footnote</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
+<h2 id="markdown-test">Markdown Test</h2>
+<h3 id="latex">Latex</h3>
+
+\[\textit{Hello} = \frac{1}{n}\]
+
+\[\begin{align*}
+\nabla f
+= \begin{bmatrix}
+  f(x+1, y) - f(x-1, y)\\
+  f(x, y+1) - f(x, y-1)
+\end{bmatrix}
+= \begin{bmatrix}
+  55-105\\
+  90-40
+\end{bmatrix}
+= \begin{bmatrix}
+  -50\\
+  50
+\end{bmatrix}
+\end{align*}\]
+
+<h3 id="list">List</h3>
+
+<ul>
+  <li>df</li>
+  <li>dfdff</li>
+  <li>dfsl</li>
+</ul>
+
+<h3 id="table-list">Table List</h3>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Write the press release</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Update the website</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Contact the media</li>
+</ul>
+
+<h3 id="code">Code</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">scipy</span>
+<span class="kn">import</span> <span class="nn">scipy.signal</span> <span class="k">as</span> <span class="n">sig</span>
+<span class="c1"># With mode="L", we force the image to be parsed in the grayscale, so it is
+# actually unnecessary to convert the photo color beforehand.
+</span><span class="n">img</span> <span class="o">=</span> <span class="n">scipy</span><span class="p">.</span><span class="n">misc</span><span class="p">.</span><span class="n">imread</span><span class="p">(</span><span class="s">"manu-2004.jpg"</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s">"L"</span><span class="p">)</span>
+
+<span class="c1"># Define the Sobel operator kernels.
+</span><span class="n">kernel_x</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">],[</span><span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">],[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">]])</span>
+<span class="n">kernel_y</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">],</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">]])</span>
+
+<span class="n">G_x</span> <span class="o">=</span> <span class="n">sig</span><span class="p">.</span><span class="n">convolve2d</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">kernel_x</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s">'same'</span><span class="p">)</span>
+<span class="n">G_y</span> <span class="o">=</span> <span class="n">sig</span><span class="p">.</span><span class="n">convolve2d</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">kernel_y</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s">'same'</span><span class="p">)</span>
+
+<span class="c1"># Plot them!
+</span><span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="p">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="n">ax1</span> <span class="o">=</span> <span class="n">fig</span><span class="p">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">121</span><span class="p">)</span>
+<span class="n">ax2</span> <span class="o">=</span> <span class="n">fig</span><span class="p">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">122</span><span class="p">)</span>
+
+<span class="c1"># Actually plt.imshow() can handle the value scale well even if I don't do
+# the transformation (G_x + 255) / 2.
+</span><span class="n">ax1</span><span class="p">.</span><span class="n">imshow</span><span class="p">((</span><span class="n">G_x</span> <span class="o">+</span> <span class="mi">255</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s">'gray'</span><span class="p">);</span> <span class="n">ax1</span><span class="p">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s">"Gx"</span><span class="p">)</span>
+<span class="n">ax2</span><span class="p">.</span><span class="n">imshow</span><span class="p">((</span><span class="n">G_y</span> <span class="o">+</span> <span class="mi">255</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s">'gray'</span><span class="p">);</span> <span class="n">ax2</span><span class="p">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="s">"Gy"</span><span class="p">)</span>
+<span class="n">plt</span><span class="p">.</span><span class="n">show</span><span class="p">()</span></code></pre></figure>
+
+<h3 id="image">Image</h3>
+<p class="center"><img src="/raion-log/assets/images/block_histogram.png" alt="Block histogram" /></p>
+<p><em>Fig. 5. Demonstration of a HOG histogram for one block.</em></p>
+
+<h3 id="link">Link</h3>
+<p><a href="www.google.com">paper</a></p>
+
+<h3 id="table">Table</h3>
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Tex Space</th>
+      <th>Blue Space</th>
+      <th>Lambda</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sXYZ</td>
+      <td>sBlue</td>
+      <td>sXYZ abcde fghy</td>
+    </tr>
+    <tr>
+      <td>Jaobe XTZ</td>
+      <td>Blue Game 5.2</td>
+      <td>5.2</td>
+    </tr>
+  </tbody>
+</table>
+
+<table class="info">
+  <tbody>
+    <tr>
+      <td> </td>
+      <td><strong>Derivative</strong></td>
+      <td><strong>Directional Derivative</strong></td>
+      <td><strong>Gradient</strong></td>
+    </tr>
+    <tr>
+      <td>Value type</td>
+      <td>Scalar</td>
+      <td>Scalar</td>
+      <td>Vector</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>The rate of change of a function \(f(x,y,z,...)\) at a point \((x_0,y_0,z_0,...)\), which is the slope of the tangent line at the point.</td>
+      <td>The instantaneous rate of change of \(f(x,y,z, ...)\) in the direction of an unit vector \(\vec{u}\).</td>
+      <td>It points in the direction of the greatest rate of increase of the function, containing all the partial derivative information of a multivariable function.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="footnote">Footnote</h3>
+<p>Here’s a simple footnote,<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup> and here’s a longer one.<sup id="fnref:bignote" role="doc-noteref"><a href="#fn:bignote" class="footnote">2</a></sup></p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>This is the first footnote. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:bignote" role="doc-endnote">
+      <p>Here’s one with multiple paragraphs and code.</p>
+
+      <p>Indent paragraphs to include them in the footnote.</p>
+
+      <p><code class="language-plaintext highlighter-rouge">{ my code }</code></p>
+
+      <p>Add as many paragraphs as you like. <a href="#fnref:bignote" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+
+  <div class="page-navigation">
+    
+
+    
+      <a class="next" href="/raion-log/2020/12/25/christmas.html">2020、圣诞、我 &rarr;</a>
+    
+  </div>
+
+  
+
+</article>
+      </div>
+    </main>
+
+    <div style="clear: both;"/>
+<footer class="site-footer">
+    <!-- 2020 &copy; Built by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/jekyll/minima/" target="_blank">minima</a> | View <a href="https://github.com/lilianweng/lil-log/tree/gh-pages" target="_blank">this</a> on Github | <a href="/raion-log/tags.html">Tags</a> | <a href="/raion-log/contact.html">Contact</a> | <a href="/raion-log/FAQ.html">FAQ</a> -->
+
+    2020 - &copy; Built by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/jekyll/minima/" target="_blank">minima</a> | View <a href="https://github.com/jhliu17/raion-log/tree/gh-pages" target="_blank">this</a> on Github | <a href="https://qr.ae/pNKoon">What I cannot create, I do not understand.</a>
+
+    <!-- <p>
+        <a href="/raion-log/feed.xml" target="_blank">
+            <img src="/raion-log/assets/icons/logo_rss.png" />
+        </a>
+        <a href="https://scholar.google.com/citations?user=dCa-pW8AAAAJ&hl=en&oi=ao" target="_blank">
+            <img src="/raion-log/assets/icons/logo_scholar.png" />
+        </a>
+        <a href="https://github.com/jhliu17" target="_blank">
+            <img src="/raion-log/assets/icons/logo_github.png" />
+        </a>
+        <a href="https://www.instagram.com/lilianweng/" target="_blank">
+            <img src="/raion-log/assets/icons/logo_instagram.png" />
+        </a>
+        <a href="https://twitter.com/lilianweng/" target="_blank">
+            <img src="/raion-log/assets/icons/logo_twitter.png" />
+        </a>
+    </p> -->
+</footer>
+
+
+  </body>
+
+</html>
